@@ -1,0 +1,65 @@
+:root.dark {
+  --bodyBg: #202020;
+  --textColor: #E0E0E0;
+  --borderF: 1px solid #E0E0E0;
+
+}
+
+:root.light {
+  --bodyBg: #E0E0E0;
+  --textColor: #202020;
+  --borderF: 1px solid #202020;
+
+}
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+body {
+  background-color: var(--bodyBg);
+  color: var(--textColor);
+  margin: 0px;
+}
+
+.main {
+  border: var(--borderF) ;
+  padding: 15px;
+  color: var(--textColor);
+  border-radius: 10px;
+
+}
+
+#btn {
+  background-color: var(--bodyBg);
+  color: var(--textColor);
+  border: var(--borderF);
+  padding: 10px 15px;
+  /* position: relative;
+  left: 100px; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 10px;
+}
+
+#tbtn {
+  background-color: var(--bodyBg);
+  color: var(--textColor);
+  border: var(--borderF);
+  padding: 10px 15px;
+  border-radius: 10px;
+  /* position: relative;
+  left: 100px; */
+}
